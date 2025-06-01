@@ -201,3 +201,9 @@ textarea{
       margin : 12px 0;
       padding : 8px 0;
 }
+
+/* ====================== App ====================== */
+#app {
+  padding-bottom: env(safe-area-inset-bottom);
+  padding-top: env(safe-area-inset-top);
+}
